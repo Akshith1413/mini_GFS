@@ -1,0 +1,16 @@
+[21:26:58] [CS:6001] ChunkServer starting on port 6001...
+[21:26:58] [CS:6001] Master target: localhost:6000
+[21:26:58] [CS:6001] Storage directory: /Users/harini/Desktop/final/data/s1
+[21:26:58] [CS:6001] Registering as: 10.12.252.215:6001
+[21:26:58] [CS:6001] Registration successful: Registered 10.12.252.215:6001
+[21:26:58] [CS:6001] ChunkServer is READY and listening on port 6001
+[21:27:03] [CS:6001] Received: WRITE_CHUNK
+[Storage] Stored test_file.txt_chunk_0 (59 bytes)
+[21:27:13] [CS:6001] Received: WRITE_CHUNK
+[Storage] Stored docs_pom.xml_chunk_0 (1210 bytes)
+[21:28:52] [CS:6001] Received: WRITE_CHUNK
+[Storage] Stored docs_pom.xml_chunk_0 (1210 bytes)
+[21:30:35] [CS:6001] Received: WRITE_CHUNK
+[Storage] Stored docs_test.xml_chunk_0 (1210 bytes)
+[21:49:50] [CS:6001] Shutting down ChunkServer...
+[21:49:50] [CS:6001] ChunkServer stopped.

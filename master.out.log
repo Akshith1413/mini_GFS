@@ -1,0 +1,43 @@
+[21:26:55] [Master] MasterServer starting on port 6000...
+[21:26:55] [Master] MasterServer is READY and listening on port 6000
+[21:26:58] [Master] Received: REGISTER from /127.0.0.1:62426
+[21:26:58] [Master] Received: REGISTER from /127.0.0.1:62425
+[Meta] Registered ChunkServer: 10.12.252.215:6002
+[Meta] Registered ChunkServer: 10.12.252.215:6001
+[21:27:02] [Master] Received: STATUS from /127.0.0.1:62429
+[21:27:03] [Master] Received: ALLOCATE_CHUNK from /127.0.0.1:62430
+[Meta] Allocated test_file.txt_chunk_0 -> [10.12.252.215:6001, 10.12.252.215:6002]
+[Meta] Saved: 1 files, 1 chunks.
+[21:27:13] [Master] Received: ALLOCATE_CHUNK from /127.0.0.1:62440
+[Meta] Allocated docs_pom.xml_chunk_0 -> [10.12.252.215:6002, 10.12.252.215:6001]
+[Meta] Saved: 2 files, 2 chunks.
+[21:27:50] [Master] Received: DELETE_FILE from /127.0.0.1:62480
+[Meta] Saved: 1 files, 1 chunks.
+[21:27:50] [Master] Deleted file: /docs/pom.xml
+[21:27:50] [Master] Received: GET_FILE_LOCATIONS from /127.0.0.1:62481
+[21:28:39] [Master] Received: SNAPSHOT from /127.0.0.1:62532
+[21:28:52] [Master] Received: ALLOCATE_CHUNK from /127.0.0.1:62543
+[Meta] Allocated docs_pom.xml_chunk_0 -> [10.12.252.215:6001, 10.12.252.215:6002]
+[Meta] Saved: 2 files, 2 chunks.
+[21:30:35] [Master] Received: ALLOCATE_CHUNK from /127.0.0.1:62627
+[Meta] Allocated docs_test.xml_chunk_0 -> [10.12.252.215:6002, 10.12.252.215:6001]
+[Meta] Saved: 3 files, 3 chunks.
+[21:41] [Master] Received: LIST_FILES from /127.0.0.1:63099
+[21:41] [Master] Received: STATUS from /127.0.0.1:63100
+[21:45:06] [Master] Received: SNAPSHOT from /127.0.0.1:63290
+[Meta] Saved: 4 files, 3 chunks.
+[Meta] Created snapshot: /docs/test.xml -> /docs/test_snapshot.xml
+[21:45:06] [Master] Created snapshot: /docs/test.xml -> /docs/test_snapshot.xml
+[21:46:14] [Master] Received: DELETE_FILE from /127.0.0.1:63342
+[Meta] Saved: 3 files, 3 chunks.
+[21:46:14] [Master] Deleted file: /docs/test.xml
+[21:46:14] [Master] Received: LIST_FILES from /127.0.0.1:63343
+[21:46:14] [Master] Received: GET_FILE_LOCATIONS from /127.0.0.1:63344
+[21:46:14] [Master] Received: STATUS from /127.0.0.1:63346
+[21:46:24] [Master] Received: DELETE_FILE from /127.0.0.1:63354
+[Meta] Saved: 2 files, 2 chunks.
+[21:46:24] [Master] Deleted file: /docs/test_snapshot.xml
+[21:46:24] [Master] Received: STATUS from /127.0.0.1:63355
+[21:49:50] [Master] Shutting down MasterServer...
+[Meta] Saved: 2 files, 2 chunks.
+[21:49:50] [Master] MasterServer stopped.
